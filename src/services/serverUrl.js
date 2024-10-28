@@ -1,0 +1,1 @@
+export const serverUrl = 'https://college-server-ve8w.onrender.com'
