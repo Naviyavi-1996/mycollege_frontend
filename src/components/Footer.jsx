@@ -2,7 +2,7 @@ import { faFacebook, faInstagram, faLinkedin, faXTwitter } from '@fortawesome/fr
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from '/src/images/logo.png'
 function Footer() {
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
@@ -13,7 +13,7 @@ function Footer() {
           <div className="row py-3">
             <div className="col-12 col-md-10 d-flex align-items-center">
               <img
-                alt="university college logo"
+                alt={logo}
                 src="src/images/logo.png"
                 width="100"
                 height="100"
