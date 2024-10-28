@@ -13,8 +13,8 @@ function Footer() {
           <div className="row py-3">
             <div className="col-12 col-md-10 d-flex align-items-center">
               <img
-                alt={logo}
-                src="src/images/logo.png"
+                alt="university college logo"
+                src={logo}
                 width="100"
                 height="100"
               />
